@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Failed suite [Leaf Taps Automation]]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="http://leaftaps.com/opentaps/"/>
+  <test thread-count="2" parallel="tests" name="LeafTaps-DuplicateLeadTest(failed)(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.leaftaps.ui.testcases.DuplicateLeadTest">
+        <methods>
+          <include name="runDeleteLead" invocation-numbers="0"/>
+          <include name="setdata"/>
+          <include name="Closebrowser"/>
+          <include name="launchBrowser"/>
+          <include name="provideData"/>
+        </methods>
+      </class> <!-- com.leaftaps.ui.testcases.DuplicateLeadTest -->
+    </classes>
+  </test> <!-- LeafTaps-DuplicateLeadTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Leaf Taps Automation]] -->
